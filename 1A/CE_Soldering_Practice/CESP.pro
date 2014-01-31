@@ -1,11 +1,6 @@
-update=27/01/2014 4:19:27 p.m.
+update=31/01/2014 6:47:15 p.m.
 version=1
 last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
 [eeschema]
@@ -47,15 +42,19 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=CESP
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=CESP.net
 UseCmpFile=1
 PadDrill=0.000000000000
 PadDrillOvalY=0.000000000000
-PadSizeH=3.300000000000
-PadSizeV=4.200000000000
+PadSizeH=0.450000000000
+PadSizeV=1.650000000000
 PcbTextSizeV=1.000000000000
 PcbTextSizeH=1.000000000000
 PcbTextThickness=0.300000000000
@@ -68,7 +67,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.150000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=C:/Electronics/Projects/Kicad/ComponentLib;../Blinky;../CE_Soldering_Practice
+LibDir=../CE_Soldering_Practice
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -80,6 +79,4 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-LibName12=Blinky
-LibName13=ComponentLib
-LibName14=CESP
+LibName12=CESP
